@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Qualification form </title>
+</head>
+<body>
+    <div align="center">
+        <table width="100%" border="0" bgcolor="Black">
+            <tr align="center " background="black">
+              <td><h1><font color="White" width="500" background="black">Employees Qualification</font></h1></td>
+            </tr>
+        </table>
+         
+    </div>
+    <div align="center">
+    <form action="send.php" name="Employees qualification" method="post">
+        <table width="100%" border="0" cellpadding="" cellspacing="" bgcolor="grey">
+            <tr>
+                <th><h2><strong><font color="black" width="500">Details Of An Employees  </font></strong></h2></th>
+            </tr>
+            <tr>
+                <th><h3><strong><font color="black" width="500">
+                    <input type="radio" name="Ms"/>Ms.
+                    <input type="radio" name="Mrs"/>Mrs.
+                    <input type="radio" name="Mr"/>Mr.
+                  </font></strong></h3></th>
+            </tr>
+        </table>
+        <table width="100%" border="0"  cellpadding="4" cellspacing="5" bgcolor="lightgrey">
+           
+         <tr align="center">
+            
+            <td><strong>First Name:</strong> <input type="text" name="first name"></td>
+            <td><strong>Last Name:</strong><input type="text" name="last name"></td>
+         </tr>
+         <tr align="center">
+            <td><strong>Position:</strong><select name="position" id="employee_position" display=""> 
+                <option value="Junior .net engineer">Junior .net engineer</option>
+                <option value="Mid level engineer">Mid level engineer</option>
+                <option value="Cybersecurity resercher">Cybersecurity resercher</option>
+                <option value="Project Manager">Project Manager</option>
+                </select>
+            </td>
+            <td><strong>Qualifications:</strong><select name="qualification" id="emlpoyee_qualification" display="">
+                <option value="Bachelors Degree in Computer Science">Bachelors Degree in Computer Science</option>
+                <option value="Bachelors Degree in Cybersecurity ">Bachelors Degree in Cybersecurity</option>
+                <option value="Bachelors Degree in Information Technology">Bachelors Degree in Information Technology</option>
+                <option value="Masters Degree in Computer Science">Masters Degree in Computer Science</option>
+                <option value="Masters Degree in Cybersecurity">Masters Degree in Cybersecurity</option>
+                <option value="Masters Degree in Project Mangemanet">Masters Degree in Project Mangemanet</option>
+            </select></td>
+         </tr>
+         <tr align="center">
+            <td><strong>Company:</strong><input type="text" name="name"></td>
+            <td><strong>Phone:</strong><input type="number" name="number"></td>
+         </tr>
+         <tr align="center">
+            <td><strong>Email:</strong><input type="email" name="email"></td>
+            <td><strong>City:</strong><input type="text" name="place"></td>
+
+         </tr>
+         <tr align="center">
+            <td><strong>Gender:</strong>
+                <input type="radio" name="fe"/>Female 
+                <input type="radio" name="me"/>Male
+            </td>
+            <td><strong>Zipcode:</strong>
+                <input type="text" name="zipcode">
+                
+            </td>
+ 
+ 
+         </tr>
+         <tr align="center">
+            <td><strong><font color="black">About Yourself:</font></strong>
+            <textarea name="Comment" cols="35" rows="5"></textarea>
+            </td>
+            <td><strong><font color="black">Upload CV:</font></strong>
+                <input type="file">
+                </td>
+                       
+                        
+         </tr>
+         <tr align="center ">
+            <td><input type="submit"></td>
+         </tr>
+
+    </form>
+    <p> Thank You </p>
+</body>
+</html>
